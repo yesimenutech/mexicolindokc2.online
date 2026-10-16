@@ -1,0 +1,1147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mexico Lindo KC #2 – Authentic Mexican Cuisine & Delivery</title>
+    <meta name="description" content="Disfruta del auténtico sabor de México en Mexico Lindo KC #2. Tacos, platillos tradicionales, servicio de banquetes y pedidos en línea en Independence, MO.">
+    <link rel="canonical" href="https://mexicolindokc.onlineordering.io/">
+    <link rel="icon" id="favicon" type="image/png" href="https://res.cloudinary.com/dzklt0a5u/image/upload/f_auto,q_auto:eco,dpr_auto,w_250/v1792193746/MexicoLindoKC_2LOGO_uhrdgd.png">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="restaurant">
+    <meta property="og:title" content="Mexico Lindo KC #2 – Sabor Auténtico Mexicano">
+    <meta property="og:description" content="Tradición, sabor y calidez mexicana. Pide en línea tus platillos favoritos.">
+    <meta property="og:image" content="https://res.cloudinary.com/dzklt0a5u/image/upload/v1792193791/473029302_122131817216442338_4847650950524614493_n_hvxhol.jpg">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Mexico Lindo KC #2">
+    <meta name="twitter:description" content="El verdadero sabor mexicano en Independence, MO.">
+    <meta name="twitter:image" content="https://res.cloudinary.com/dzklt0a5u/image/upload/v1792193791/473029302_122131817216442338_4847650950524614493_n_hvxhol.jpg">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800;900&family=Rye&family=Shrikhand&display=swap" rel="stylesheet">
+
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "Mexico Lindo KC #2",
+      "image": "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792193746/MexicoLindoKC_2LOGO_uhrdgd.png",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "19321 E US Hwy 40",
+        "addressLocality": "Independence",
+        "addressRegion": "MO",
+        "postalCode": "64055",
+        "addressCountry": "US"
+      },
+      "telephone": "8168328194",
+      "servesCuisine": "Mexican",
+      "priceRange": "$$",
+      "url": "https://mexicolindokc.onlineordering.io/en?locationId=1581318&orderMode=in_store_pickup"
+    }
+    </script>
+
+    <style>
+        :root {
+            --color-red: #D32F2F;
+            --color-red-glow: #FF3333;
+            --color-green: #008751;
+            --color-green-glow: #00FF66;
+            --color-white: #FFFFFF;
+            --color-dark-bg: #0C0F0D;
+            --color-card-bg: #141A16;
+            --color-text-main: #F4F7F4;
+            --color-text-muted: #A3B5A6;
+            --color-gold: #FFC107;
+            --color-mexican-pink: #E91E63;
+            
+            --font-display: 'Rye', cursive;
+            --font-accent: 'Shrikhand', cursive;
+            --font-body: 'Outfit', sans-serif;
+            
+            --shadow-neon-green: 0 0 10px rgba(0, 255, 102, 0.6), 0 0 20px rgba(0, 255, 102, 0.4), 0 0 30px rgba(0, 135, 81, 0.3);
+            --shadow-neon-red: 0 0 10px rgba(255, 51, 51, 0.6), 0 0 20px rgba(255, 51, 51, 0.4), 0 0 30px rgba(211, 47, 47, 0.3);
+            --shadow-neon-gold: 0 0 10px rgba(255, 193, 7, 0.6), 0 0 20px rgba(255, 193, 7, 0.4);
+        }
+
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: var(--font-body);
+            background-color: var(--color-dark-bg);
+            color: var(--color-text-main);
+            line-height: 1.6;
+            overflow-x: hidden;
+            background-image: 
+                radial-gradient(circle at 12% 18%, rgba(0, 135, 81, 0.12) 0%, transparent 45%),
+                radial-gradient(circle at 88% 82%, rgba(211, 47, 47, 0.12) 0%, transparent 45%),
+                radial-gradient(circle at 50% 50%, rgba(255, 193, 7, 0.03) 0%, transparent 60%);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+            transition: all 0.3s ease;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* Sarape Colorful Top Border */
+        .sarape-bar {
+            height: 8px;
+            width: 100%;
+            background: linear-gradient(90deg, 
+                #008751 0%, #008751 20%, 
+                #FFFFFF 20%, #FFFFFF 40%, 
+                #E91E63 40%, #E91E63 55%, 
+                #FFC107 55%, #FFC107 70%, 
+                #D32F2F 70%, #D32F2F 100%);
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1001;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+        }
+
+        /* Papel Picado Decorative SVG Banner */
+        .papel-picado-container {
+            width: 100%;
+            overflow: hidden;
+            line-height: 0;
+            margin-bottom: 20px;
+            opacity: 0.85;
+        }
+
+        .papel-picado-svg {
+            width: 100%;
+            height: 38px;
+            fill: none;
+        }
+
+        /* Navbar */
+        .navbar {
+            position: fixed;
+            top: 8px;
+            left: 0;
+            right: 0;
+            background: rgba(12, 15, 13, 0.94);
+            backdrop-filter: blur(14px);
+            z-index: 1000;
+            padding: 16px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+            transition: all 0.3s ease;
+        }
+
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar-brand {
+            font-family: var(--font-display);
+            font-size: 1.35rem;
+            color: var(--color-white);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .navbar-brand:hover {
+            color: var(--color-green-glow);
+            text-shadow: 0 0 8px var(--color-green-glow);
+        }
+
+        .nav-menu {
+            display: flex;
+            list-style: none;
+            gap: 28px;
+            align-items: center;
+        }
+
+        .nav-link {
+            font-size: 0.95rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1.2px;
+            color: var(--color-text-main);
+            position: relative;
+            padding: 5px 0;
+        }
+
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 0%;
+            height: 2px;
+            background: linear-gradient(90deg, var(--color-green), var(--color-red));
+            transition: width 0.3s ease;
+        }
+
+        .nav-link:hover::after, .nav-link.active::after {
+            width: 100%;
+        }
+
+        .nav-link:hover {
+            color: var(--color-gold);
+        }
+
+        .lang-switch {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(255, 255, 255, 0.06);
+            padding: 6px 14px;
+            border-radius: 30px;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+        }
+
+        .lang-btn {
+            cursor: pointer;
+            font-weight: 700;
+            font-size: 0.85rem;
+            color: var(--color-text-muted);
+            transition: all 0.2s;
+        }
+
+        .lang-btn.active {
+            color: var(--color-green-glow);
+            text-shadow: 0 0 5px var(--color-green-glow);
+        }
+
+        .navbar-toggler {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 5px;
+        }
+
+        .toggler-icon {
+            width: 28px;
+            height: 3px;
+            background-color: var(--color-white);
+            border-radius: 2px;
+            transition: all 0.3s ease;
+        }
+
+        /* Neon Mexican Titles */
+        .neon-title-green {
+            font-family: var(--font-display);
+            color: var(--color-white);
+            text-shadow: 
+                0 0 5px var(--color-green-glow),
+                0 0 10px var(--color-green-glow),
+                0 0 20px var(--color-green),
+                0 0 40px var(--color-green);
+            letter-spacing: 2px;
+        }
+
+        .neon-title-red {
+            font-family: var(--font-display);
+            color: var(--color-white);
+            text-shadow: 
+                0 0 5px var(--color-red-glow),
+                0 0 10px var(--color-red-glow),
+                0 0 20px var(--color-red),
+                0 0 40px var(--color-red);
+            letter-spacing: 2px;
+        }
+
+        /* Sombrero & Agave Decorator */
+        .mexican-divider {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 16px;
+            margin: 15px 0 35px 0;
+        }
+
+        .mexican-divider::before, .mexican-divider::after {
+            content: '';
+            height: 2px;
+            width: 80px;
+            background: linear-gradient(90deg, transparent, var(--color-gold), transparent);
+        }
+
+        .mexican-icon-group {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .sombrero-icon {
+            width: 38px;
+            height: 38px;
+            fill: var(--color-gold);
+            filter: drop-shadow(0 0 6px rgba(255, 193, 7, 0.7));
+        }
+
+        .chile-icon {
+            width: 24px;
+            height: 24px;
+            fill: var(--color-red-glow);
+            filter: drop-shadow(0 0 5px rgba(255, 51, 51, 0.7));
+        }
+
+        /* Hero Section */
+        .hero {
+            position: relative;
+            min-height: 94vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            padding-top: 110px;
+            padding-bottom: 70px;
+        }
+
+        .hero-overlay {
+            position: absolute;
+            inset: 0;
+            background: radial-gradient(circle at center, rgba(12, 15, 13, 0.6) 0%, rgba(12, 15, 13, 0.94) 100%);
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            max-width: 900px;
+        }
+
+        .hero-logo {
+            max-height: 170px;
+            width: auto;
+            margin: 0 auto 20px;
+            filter: drop-shadow(0 0 18px rgba(0, 0, 0, 0.8));
+            animation: pulseLogo 3.5s infinite alternate ease-in-out;
+        }
+
+        @keyframes pulseLogo {
+            0% { transform: scale(1); filter: drop-shadow(0 0 10px rgba(0, 255, 102, 0.3)); }
+            100% { transform: scale(1.04); filter: drop-shadow(0 0 22px rgba(255, 51, 51, 0.5)); }
+        }
+
+        .hero-title {
+            font-size: 4rem;
+            line-height: 1.1;
+            margin-bottom: 20px;
+        }
+
+        .hero-subtitle {
+            font-size: 1.3rem;
+            color: var(--color-text-muted);
+            margin-bottom: 35px;
+            font-weight: 300;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-bottom: 25px;
+        }
+
+        .btn-primary-custom {
+            background: linear-gradient(135deg, var(--color-green), #005834);
+            color: var(--color-white);
+            padding: 16px 40px;
+            font-size: 1.1rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            border-radius: 50px;
+            box-shadow: var(--shadow-neon-green);
+            border: 1px solid rgba(0, 255, 102, 0.4);
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .btn-primary-custom:hover {
+            transform: translateY(-3px) scale(1.04);
+            box-shadow: 0 0 30px var(--color-green-glow);
+            background: linear-gradient(135deg, #00A86B, var(--color-green));
+        }
+
+        .hero-address {
+            font-size: 1.15rem;
+            color: var(--color-gold);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 15px;
+            font-weight: 600;
+        }
+
+        /* Section Global */
+        section {
+            padding: 95px 0;
+            position: relative;
+        }
+
+        .section-title {
+            font-size: 2.9rem;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+
+        .section-subtitle {
+            text-align: center;
+            font-size: 1.05rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--color-gold);
+            font-weight: 700;
+            display: block;
+        }
+
+        /* About Section */
+        .about-section {
+            background-color: var(--color-card-bg);
+            border-top: 1px solid rgba(255, 255, 255, 0.06);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            align-items: center;
+        }
+
+        .about-text p {
+            color: var(--color-text-muted);
+            margin-bottom: 20px;
+            font-size: 1.05rem;
+            line-height: 1.85;
+        }
+
+        .about-images {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            position: relative;
+        }
+
+        .about-image {
+            width: 100%;
+            height: 330px;
+            object-fit: cover;
+            border-radius: 18px;
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+            transition: transform 0.4s ease, border-color 0.4s ease;
+        }
+
+        .about-image:hover {
+            transform: scale(1.04) rotate(1deg);
+            border-color: var(--color-green-glow);
+        }
+
+        /* Gallery Section */
+        .gallery-section {
+            background-color: var(--color-dark-bg);
+        }
+
+        #gallery-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+            gap: 22px;
+            margin-top: 40px;
+        }
+
+        .gallery-card {
+            position: relative;
+            border-radius: 16px;
+            overflow: hidden;
+            aspect-ratio: 1 / 1;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            background-color: var(--color-card-bg);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .gallery-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-neon-gold);
+            border-color: var(--color-gold);
+        }
+
+        .gallery-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .gallery-card:hover .gallery-img {
+            transform: scale(1.12);
+        }
+
+        .gallery-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.85) 0%, transparent 60%);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            display: flex;
+            align-items: flex-end;
+            padding: 20px;
+        }
+
+        .gallery-card:hover .gallery-overlay {
+            opacity: 1;
+        }
+
+        /* Info Section */
+        .info-section {
+            background-color: var(--color-card-bg);
+            border-top: 1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        .info-box {
+            background: rgba(12, 15, 13, 0.85);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 24px;
+            padding: 50px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.6);
+            text-align: center;
+        }
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .info-item {
+            background: rgba(255, 255, 255, 0.02);
+            padding: 32px 22px;
+            border-radius: 18px;
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            transition: all 0.3s ease;
+        }
+
+        .info-item:hover {
+            border-color: var(--color-red);
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-neon-red);
+        }
+
+        .info-item-icon {
+            width: 48px;
+            height: 48px;
+            margin: 0 auto 15px;
+            fill: var(--color-green-glow);
+        }
+
+        .info-item h4 {
+            font-family: var(--font-display);
+            font-size: 1.35rem;
+            color: var(--color-white);
+            margin-bottom: 12px;
+        }
+
+        .info-item p {
+            color: var(--color-text-muted);
+            font-size: 1.02rem;
+            line-height: 1.65;
+        }
+
+        /* Footer */
+        .site-footer {
+            background-color: #070908;
+            padding: 70px 0 35px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: var(--color-text-muted);
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 50px;
+            max-width: 900px;
+            margin: 0 auto 40px;
+        }
+
+        .footer-title {
+            font-family: var(--font-display);
+            font-size: 1.4rem;
+            color: var(--color-white);
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+        }
+
+        .footer-col p {
+            font-size: 1.02rem;
+            line-height: 1.8;
+            margin-bottom: 10px;
+        }
+
+        .social-link {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 46px;
+            height: 46px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.05);
+            color: var(--color-white);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            transition: all 0.3s ease;
+        }
+
+        .social-link:hover {
+            background: var(--color-red);
+            color: var(--color-white);
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-neon-red);
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.06);
+            font-size: 0.95rem;
+            color: var(--color-text-muted);
+        }
+
+        .menutech-link {
+            color: var(--color-gold);
+            font-weight: 700;
+            transition: color 0.2s;
+        }
+
+        .menutech-link:hover {
+            color: var(--color-green-glow);
+            text-decoration: underline;
+        }
+
+        /* Responsive */
+        @media (max-width: 992px) {
+            .hero-title { font-size: 3.2rem; }
+            .about-grid { grid-template-columns: 1fr; }
+            .about-images { order: -1; }
+            .info-grid { grid-template-columns: 1fr; }
+        }
+
+        @media (max-width: 768px) {
+            .navbar-toggler { display: flex; }
+            .nav-menu {
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                flex-direction: column;
+                background-color: rgba(12, 15, 13, 0.98);
+                padding: 25px;
+                gap: 20px;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+                transform: translateY(-150%);
+                opacity: 0;
+                visibility: hidden;
+                transition: all 0.4s ease;
+            }
+
+            .nav-menu.active {
+                transform: translateY(0);
+                opacity: 1;
+                visibility: visible;
+            }
+
+            .hero-title { font-size: 2.4rem; }
+            .section-title { font-size: 2.2rem; }
+            .footer-grid { grid-template-columns: 1fr; text-align: center; }
+            .info-box { padding: 35px 20px; }
+        }
+    </style>
+
+    <script>
+        window.MENU_TECH_STATE = {
+            "lang": "es",
+            "showReservations": false,
+            "showAbout": true,
+            "showPromo": false,
+            "showGallery": true,
+            "showCatering": false,
+            "showInfo": true,
+            "showDelivery": false,
+            "cuid": "",
+            "ruid": "",
+            "title": "Mexico Lindo KC #2",
+            "logoImg": "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792193746/MexicoLindoKC_2LOGO_uhrdgd.png",
+            "heroAddress": "19321 E US Hwy 40, Independence, MO 64055",
+            "heroImg": "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792193791/473029302_122131817216442338_4847650950524614493_n_hvxhol.jpg",
+            "aboutImg1": "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792193741/473029302_122131817216442338_4847650950524614493_n_dvhlbd.jpg",
+            "aboutImg2": "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792193743/IMG-20261010-WA0018_icliz9.jpg",
+            "promoBg": "https://res.cloudinary.com/dzklt0a5u/image/upload/v1777151404/yiebnrm6l10wizbcdbp2.jpg",
+            "cateringBg": "https://res.cloudinary.com/dzklt0a5u/image/upload/v1777151404/yiebnrm6l10wizbcdbp2.jpg",
+            "deliveryImg": "https://res.cloudinary.com/dzklt0a5u/image/upload/v1777151404/yiebnrm6l10wizbcdbp2.jpg",
+            "gallery": [
+                "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792193764/830282172_122201737226442338_7281085643111916143_n_kur58w.jpg",
+                "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792193765/828122346_122201737268442338_2574248686876253712_n_uczoja.jpg",
+                "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792193765/829474408_122201737184442338_8776413022557933983_n_mckkgk.jpg",
+                "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792193766/829381724_122201737142442338_8388747907811173841_n_uyxvn2.jpg",
+                "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792193766/791456123_122198798042442338_3120718141977909858_n_qop5mb.jpg",
+                "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792193767/790325961_122198798072442338_4718292677704461002_n_tmwcwv.jpg",
+                "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792193767/789960755_122198798030442338_5133138596572812394_n_ukodzk.jpg",
+                "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792193768/579258440_122169858674442338_5309551161371444939_n_uis0kt.jpg",
+                "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792193768/578082760_122169858746442338_4084235244918726097_n_m91l3t.jpg",
+                "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792193769/577706337_122169858722442338_8403356525897771332_n_j592pk.jpg",
+                "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792193769/577670156_122169858788442338_6737929074624392055_n_d9jim3.jpg",
+                "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792193770/573069239_122168520956442338_8399541321079065975_n_e2pkcv.jpg",
+                "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792193770/571188233_122168520704442338_1647197495263573532_n_crjvzz.jpg",
+                "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792193771/569955870_122168520932442338_2237767506564760212_n_hf6tq6.jpg",
+                "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792193771/550576186_122164957652442338_2589637439920918860_n_mbmwlt.jpg",
+                "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792193772/550550204_122164957694442338_7314100365293803905_n_zthbcr.jpg",
+                "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792193772/549277173_122164957670442338_301886348232069004_n_lymuy3.jpg",
+                "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792193773/547574809_122164280744442338_5905336932448144715_n_mvtwnm.jpg",
+                "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792193773/544959071_122163381548442338_6655237582620689070_n_rxcezs.jpg",
+                "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792193774/544915564_122163381506442338_3915085691751377499_n_o5byqx.jpg",
+                "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792193774/544493005_122163381536442338_6834288039977661707_n_qzieqn.jpg",
+                "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792193775/543597416_122163381488442338_8073238157686501635_n_x4vosr.jpg",
+                "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792193776/515251655_122155297106442338_7214117989390447331_n_jutdr9.jpg",
+                "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792193776/492771003_122147830784442338_1758756482553261785_n_gfmkrx.jpg",
+                "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792193777/492684610_122146782260442338_6101474738246523646_n_myr9as.jpg",
+                "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792193777/481449247_122138789258442338_2129704144910572173_n_nyp3om.jpg",
+                "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792193778/471234065_122129557436442338_6664447966703242078_n_yn8swf.jpg",
+                "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792193778/471168468_122129549396442338_2849800342968633215_n_lpexts.jpg",
+                "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792193779/471166677_122129556956442338_6193045311931825544_n_dmknop.jpg",
+                "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792193780/470192345_122128100864442338_7059798433505836644_n_qnmbhx.jpg"
+            ],
+            "contact": {
+                "phone": "8168328194",
+                "address": "19321 E US Hwy 40, Independence, MO 64055",
+                "hours": "Monday – Thursday: 11:00 AM – 9:00 PM \nFriday – Saturday: 11:00 AM – 10:00 PM \nSunday: 11:00 AM – 8:00 PM"
+            },
+            "socials": [
+                {"platform": "instagram", "url": "https://www.instagram.com/mexicolindo.kc/"},
+                {"platform": "tiktok", "url": "https://www.tiktok.com/@mexicolindo.kc?lang=en"}
+            ],
+            "paragraphs": {
+                "about": "Mexico Lindo KC #2 abrió sus puertas el 30 de julio de 2024, con el propósito de compartir el auténtico sabor de México y brindar a sus clientes una experiencia llena de tradición, sabor y calidez. Desde sus inicios, el restaurante busca ofrecer deliciosos platillos y un ambiente acogedor donde cada visita se convierta en un momento especial. ¡Gracias por ser parte de nuestra historia y permitirnos llevar un pedacito de México a su mesa!"
+            },
+            "titles": {
+                "about-title": "Somos Mexico Lindo KC #2",
+                "about-subtitle": "Sobre Nosotros",
+                "gallery-title": "Deliciosa Comida Mexicana",
+                "gallery-subtitle": "Amor al Primer Bocado",
+                "info-title": "Información",
+                "info-subtitle": "Visítanos"
+            },
+            "info": {
+                "hours": "Monday – Thursday: 11:00 AM – 9:00 PM\nFriday – Saturday: 11:00 AM – 10:00 PM\nSunday: 11:00 AM – 8:00 PM",
+                "phone": "8168328194",
+                "address": "19321 E US Hwy 40, Independence, MO 64055"
+            }
+        };
+    </script>
+</head>
+<body>
+
+    <div class="sarape-bar"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar" role="navigation" aria-label="Navegación Principal">
+        <div class="container nav-container">
+            <a href="#" class="navbar-brand" id="nav-brand">
+                Mexico Lindo KC #2
+            </a>
+            
+            <button class="navbar-toggler" id="navbar-toggler" aria-label="Abrir Menú">
+                <span class="toggler-icon"></span>
+                <span class="toggler-icon"></span>
+                <span class="toggler-icon"></span>
+            </button>
+
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link active" data-es="Inicio" data-en="Home">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about-section" class="nav-link" data-es="Nosotros" data-en="About">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#gallery-section" class="nav-link" data-es="Galería" data-en="Gallery">Galería</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#info-section" class="nav-link" data-es="Contacto" data-en="Contact">Contacto</a>
+                </li>
+                <li class="nav-item lang-switch">
+                    <span id="lang-es" class="lang-btn active">ES</span>
+                    <span style="color: rgba(255,255,255,0.2);">|</span>
+                    <span id="lang-en" class="lang-btn">EN</span>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-logo-container">
+                <img src="https://res.cloudinary.com/dzklt0a5u/image/upload/f_auto,q_auto:eco,dpr_auto,w_250/v1792193746/MexicoLindoKC_2LOGO_uhrdgd.png" id="hero-logo" alt="Mexico Lindo KC #2 Logo" class="hero-logo" width="170" height="170">
+            </div>
+
+
+            <h1 class="hero-title neon-title-green" id="hero-title-text">MEXICO LINDO KC #2</h1>
+            
+            <p class="hero-subtitle" id="hero-subtitle-text" data-es="El auténtico sabor de México en cada platillo. Tradición, pasión y sazón incomparable." data-en="The authentic taste of Mexico in every dish. Tradition, passion, and incomparable flavor.">
+                El auténtico sabor de México en cada platillo. Tradición, pasión y sazón incomparable.
+            </p>
+
+            <div class="hero-buttons">
+                <!-- Direct Custom Order Button pointing to required endpoint -->
+                <a href="https://mexicolindokc.onlineordering.io/en?locationId=1581318&orderMode=in_store_pickup" target="_blank" class="btn-primary-custom">
+                    <svg style="width:22px;height:22px;fill:currentColor" viewBox="0 0 24 24"><path d="M11 9H9V2H7v7H5V2H3v7c0 2.12 1.46 3.91 3.45 4.38l-.95 7.62h3l-.95-7.62C9.54 12.91 11 11.12 11 9zm10-4v16h-2V13h-2V5h4m0-3h-4c-1.1 0-2 .9-2 2v18h8V4c0-1.1-.9-2-2-2z"/></svg>
+                    <span data-es="ORDENAR EN LÍNEA" data-en="ORDER ONLINE">ORDENAR EN LÍNEA</span>
+                </a>
+
+                <!-- Script Motor Menutech -->
+                <script src="https://www.fbgcdn.com/embedder/js/ewm2.js"></script>
+                <script src="https://menutech.xyz/menutechUI.min.js"></script>
+
+                <!-- Embedded Menutech custom tags -->
+                <menutech-orders id="hero-orders" cuid="" ruid="" background="#008751" color="#ffffff" data-glf-cuid="" data-glf-ruid="" style="display:none;"></menutech-orders>
+
+                <div id="hero-reservations-wrapper" style="display: none;">
+                    <menutech-reservations id="hero-reservations" cuid="" ruid="" background="#D32F2F" color="#ffffff" data-glf-cuid="" data-glf-ruid="" data-glf-reservation="true"></menutech-reservations>
+                </div>
+            </div>
+
+            <p class="hero-address" id="hero-address">
+                <svg style="width:22px;height:22px;fill:var(--color-red-glow)" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                <span>19321 E US Hwy 40, Independence, MO 64055</span>
+            </p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about-section" id="about-section">
+        <div class="container">
+            <span class="section-subtitle" id="about-subtitle" data-es="NUESTRA HISTORIA" data-en="OUR STORY">NUESTRA HISTORIA</span>
+            <h2 class="section-title neon-title-red" id="about-title">Somos Mexico Lindo KC #2</h2>
+            
+            <div class="mexican-divider">
+                <div class="mexican-icon-group">
+                    <svg class="chile-icon" viewBox="0 0 24 24"><path d="M12 2c0 0-2 2-2 4 0 3 3 5 3 8 0 2.5-1.5 4.5-3.5 5.5 0 0 4.5 1 7-2 2.5-3 2.5-7.5 1.5-10.5C17 4 14 3 12 2z"/></svg>
+                    <svg class="sombrero-icon" viewBox="0 0 24 24"><path d="M12 2C11.5 2 11 2.5 11 3L9.5 8H5C3.3 8 2 9.3 2 11C2 12.7 3.3 14 5 14H19C20.7 14 22 12.7 22 11C22 9.3 20.7 8 19 8H14.5L13 3C13 2.5 12.5 2 12 2M12 4L13.1 7.5H10.9L12 4M5 10H19C19.6 10 20 10.4 20 11C20 11.6 19.6 12 19 12H5C4.4 12 4 11.6 4 11C4 10.4 4.4 10 5 10Z"/></svg>
+                    <svg class="chile-icon" viewBox="0 0 24 24" style="transform: scaleX(-1);"><path d="M12 2c0 0-2 2-2 4 0 3 3 5 3 8 0 2.5-1.5 4.5-3.5 5.5 0 0 4.5 1 7-2 2.5-3 2.5-7.5 1.5-10.5C17 4 14 3 12 2z"/></svg>
+                </div>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-text">
+                    <p id="about-p1">Mexico Lindo KC #2 abrió sus puertas el 30 de julio de 2024, con el propósito de compartir el auténtico sabor de México y brindar a sus clientes una experiencia llena de tradición, sabor y calidez. Desde sus inicios, el restaurante busca ofrecer deliciosos platillos y un ambiente acogedor donde cada visita se convierta en un momento especial. ¡Gracias por ser parte de nuestra historia y permitirnos llevar un pedacito de México a su mesa!</p>
+                    <p id="about-p2">Nuestro secreto es simple: ingredientes frescos de la más alta calidad, recetas heredadas por generaciones y la dedicación constante para consentir a tu paladar.</p>
+                    <p id="about-p3">¡Te esperamos para consentirte como te mereces!</p>
+                </div>
+                <div class="about-images">
+                    <img id="about-img-1" src="https://res.cloudinary.com/dzklt0a5u/image/upload/v1792193741/473029302_122131817216442338_4847650950524614493_n_dvhlbd.jpg" alt="Deliciosos platillos mexicanos" class="about-image" loading="lazy" width="400" height="330">
+                    <img id="about-img-2" src="https://res.cloudinary.com/dzklt0a5u/image/upload/v1792193743/IMG-20261010-WA0018_icliz9.jpg" alt="Bebidas y ambiente en Mexico Lindo KC #2" class="about-image" loading="lazy" width="400" height="330">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section" id="gallery-section">
+        <div class="container">
+            <span class="section-subtitle" id="gallery-subtitle" data-es="SABOR A LA VISTA" data-en="FLAVOR ON DISPLAY">SABOR A LA VISTA</span>
+            <h2 class="section-title neon-title-green" id="gallery-title">Deliciosa Comida Mexicana</h2>
+
+            <div class="mexican-divider">
+                <div class="mexican-icon-group">
+                    <svg class="chile-icon" viewBox="0 0 24 24"><path d="M12 2c0 0-2 2-2 4 0 3 3 5 3 8 0 2.5-1.5 4.5-3.5 5.5 0 0 4.5 1 7-2 2.5-3 2.5-7.5 1.5-10.5C17 4 14 3 12 2z"/></svg>
+                    <svg class="sombrero-icon" viewBox="0 0 24 24"><path d="M12 2C11.5 2 11 2.5 11 3L9.5 8H5C3.3 8 2 9.3 2 11C2 12.7 3.3 14 5 14H19C20.7 14 22 12.7 22 11C22 9.3 20.7 8 19 8H14.5L13 3C13 2.5 12.5 2 12 2M12 4L13.1 7.5H10.9L12 4M5 10H19C19.6 10 20 10.4 20 11C20 11.6 19.6 12 19 12H5C4.4 12 4 11.6 4 11C4 10.4 4.4 10 5 10Z"/></svg>
+                    <svg class="chile-icon" viewBox="0 0 24 24" style="transform: scaleX(-1);"><path d="M12 2c0 0-2 2-2 4 0 3 3 5 3 8 0 2.5-1.5 4.5-3.5 5.5 0 0 4.5 1 7-2 2.5-3 2.5-7.5 1.5-10.5C17 4 14 3 12 2z"/></svg>
+                </div>
+            </div>
+
+            <div id="gallery-container">
+                <!-- ALL 30 Gallery Images populated dynamically from MENU_TECH_STATE -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Info Section -->
+    <section class="info-section" id="info-section">
+        <div class="container">
+            <div class="info-box">
+                <span class="section-subtitle" id="info-subtitle" data-es="ENCUÉNTRANOS" data-en="FIND US">ENCUÉNTRANOS</span>
+                <h2 class="section-title neon-title-red" id="info-title">Información de Visita</h2>
+
+                <div class="mexican-divider">
+                    <div class="mexican-icon-group">
+                        <svg class="chile-icon" viewBox="0 0 24 24"><path d="M12 2c0 0-2 2-2 4 0 3 3 5 3 8 0 2.5-1.5 4.5-3.5 5.5 0 0 4.5 1 7-2 2.5-3 2.5-7.5 1.5-10.5C17 4 14 3 12 2z"/></svg>
+                        <svg class="sombrero-icon" viewBox="0 0 24 24"><path d="M12 2C11.5 2 11 2.5 11 3L9.5 8H5C3.3 8 2 9.3 2 11C2 12.7 3.3 14 5 14H19C20.7 14 22 12.7 22 11C22 9.3 20.7 8 19 8H14.5L13 3C13 2.5 12.5 2 12 2M12 4L13.1 7.5H10.9L12 4M5 10H19C19.6 10 20 10.4 20 11C20 11.6 19.6 12 19 12H5C4.4 12 4 11.6 4 11C4 10.4 4.4 10 5 10Z"/></svg>
+                        <svg class="chile-icon" viewBox="0 0 24 24" style="transform: scaleX(-1);"><path d="M12 2c0 0-2 2-2 4 0 3 3 5 3 8 0 2.5-1.5 4.5-3.5 5.5 0 0 4.5 1 7-2 2.5-3 2.5-7.5 1.5-10.5C17 4 14 3 12 2z"/></svg>
+                    </div>
+                </div>
+
+                <div class="info-grid">
+                    <div class="info-item">
+                        <svg class="info-item-icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
+                        <h4 data-es="Horarios" data-en="Hours">Horarios</h4>
+                        <p id="info-hours">Monday – Thursday: 11:00 AM – 9:00 PM<br>Friday – Saturday: 11:00 AM – 10:00 PM<br>Sunday: 11:00 AM – 8:00 PM</p>
+                    </div>
+
+                    <div class="info-item">
+                        <svg class="info-item-icon" viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+                        <h4 data-es="Teléfono" data-en="Phone">Teléfono</h4>
+                        <p id="info-phone">(816) 832-8194</p>
+                    </div>
+
+                    <div class="info-item">
+                        <svg class="info-item-icon" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                        <h4 data-es="Dirección" data-en="Address">Dirección</h4>
+                        <p id="info-address">19321 E US Hwy 40, Independence, MO 64055</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4 class="footer-title" data-es="Contacto" data-en="Contact Us">Contacto</h4>
+                    <p id="footer-address">19321 E US Hwy 40, Independence, MO 64055</p>
+                    <p id="footer-phone">Teléfono: (816) 832-8194</p>
+                    <div id="social-icons" style="margin-top: 20px; display: flex; gap: 15px;">
+                        <!-- Social Icons populated dynamically -->
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-title" data-es="Horarios" data-en="Opening Hours">Horarios</h4>
+                    <p id="footer-hours">Monday – Thursday: 11:00 AM – 9:00 PM<br>Friday – Saturday: 11:00 AM – 10:00 PM<br>Sunday: 11:00 AM – 8:00 PM</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                © 2015-<span id="copyright-year"></span> Powered by <a href="https://menutech.xyz" target="_blank" rel="noopener noreferrer" class="menutech-link">Menutech</a>. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Main Logic Script -->
+    <script>
+        const optimizeCloudinaryUrl = (url, options = {}) => {
+            if (!url || typeof url !== 'string' || !url.includes('res.cloudinary.com')) return url;
+            const [baseUrl, hash] = url.split('#');
+            if (!baseUrl.includes('/upload/')) return url;
+            const parts = baseUrl.split('/upload/');
+
+            let pathSegments = parts[1].split('/');
+            if (pathSegments.length > 1) {
+                const firstSegment = pathSegments[0];
+                const isVersion = /^v\d+$/.test(firstSegment);
+                const isTransformation = !isVersion && (firstSegment.includes('_') || firstSegment.includes(','));
+                if (isTransformation) {
+                    pathSegments.shift();
+                }
+            }
+            const cleanPath = pathSegments.join('/');
+
+            let transformations = ['f_auto', 'q_auto:eco', 'dpr_auto'];
+            if (options.width) {
+                transformations.push(`w_${options.width}`);
+            } else {
+                transformations.push('w_500');
+            }
+            if (options.height) transformations.push(`h_${options.height}`);
+            if (options.crop) transformations.push(`c_${options.crop}`);
+            const transformationString = transformations.join(',');
+            const optimizedUrl = `${parts[0]}/upload/${transformationString}/${cleanPath}`;
+            return hash ? `${optimizedUrl}#${hash}` : optimizedUrl;
+        };
+
+        const SOCIAL_ICONS = {
+            instagram: `<svg class="social-icon" style="width:22px;height:22px;fill:currentColor" viewBox="0 0 24 24"><path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8A3.6 3.6 0 0 0 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6A3.6 3.6 0 0 0 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8 1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3z"/></svg>`,
+            tiktok: `<svg class="social-icon" style="width:22px;height:22px;fill:currentColor" viewBox="0 0 24 24"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.87 2.89 2.89 0 0 1-2.89-2.87 2.89 2.89 0 0 1 2.89-2.88c.28 0 .55.04.81.12v-3.5a6.37 6.37 0 0 0-.81-.05A6.34 6.34 0 0 0 3.15 15.6a6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.34-6.34V8.84a8.13 8.13 0 0 0 4.76 1.52v-3.4a4.85 4.85 0 0 1-1.00-.27z"/></svg>`,
+            facebook: `<svg class="social-icon" style="width:22px;height:22px;fill:currentColor" viewBox="0 0 24 24"><path d="M12 2.04C6.5 2.04 2 6.53 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.85C10.44 7.34 11.93 5.96 14.22 5.96C15.31 5.96 16.45 6.15 16.45 6.15V8.62H15.19C13.95 8.62 13.56 9.39 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96A10 10 0 0 0 22 12.06C22 6.53 17.5 2.04 12 2.04Z"/></svg>`,
+            whatsapp: `<svg class="social-icon" style="width:22px;height:22px;fill:currentColor" viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.81 9.81 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.22 8.22 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23-1.44 0-2.85-.38-4.1-1.11l-.29-.17-3.06.81.82-2.98-.19-.3a8.22 8.22 0 0 1-1.26-4.48c0-4.54 3.7-8.23 8.24-8.23m-3.85 3.09c-.21 0-.45.03-.66.24-.21.21-.81.79-.81 1.94s.84 2.25.96 2.41c.12.16 1.63 2.49 3.96 3.5.55.24 1 .38 1.34.49.56.18 1.07.15 1.48.09.45-.06 1.39-.57 1.58-1.12.2-.55.2-1.02.14-1.12-.06-.1-.21-.16-.45-.27-.24-.12-1.39-.69-1.61-.77-.22-.08-.37-.12-.53.12-.16.24-.61.77-.75.93-.14.16-.27.18-.51.06-.24-.12-.99-.36-1.89-1.16-.7-.62-1.17-1.39-1.31-1.63-.14-.24-.01-.37.11-.49.11-.11.24-.28.36-.42.12-.15.16-.25.24-.42.08-.17.04-.32-.02-.45-.06-.13-.53-1.28-.73-1.75-.19-.48-.39-.41-.53-.42l-.44-.01Z"/></svg>`
+        };
+
+        let currentLang = 'es';
+
+        function applyLanguage(lang) {
+            currentLang = lang;
+            document.querySelectorAll('[data-' + lang + ']').forEach(el => {
+                const txt = el.getAttribute(`data-${lang}`);
+                if (txt) el.textContent = txt;
+            });
+
+            const esBtn = document.getElementById('lang-es');
+            const enBtn = document.getElementById('lang-en');
+            if (esBtn && enBtn) {
+                if (lang === 'es') {
+                    esBtn.classList.add('active');
+                    enBtn.classList.remove('active');
+                } else {
+                    enBtn.classList.add('active');
+                    esBtn.classList.remove('active');
+                }
+            }
+        }
+
+        function updateUI(data) {
+            if (!data) return;
+
+            if (data.lang) {
+                applyLanguage(data.lang);
+            }
+
+            if (data.title) {
+                const navBrand = document.getElementById('nav-brand');
+                if (navBrand) {
+                    navBrand.textContent = data.title;
+                }
+            }
+
+            if (data.logoImg) {
+                const logo = document.getElementById('hero-logo');
+                const favicon = document.getElementById('favicon');
+                const optimized = optimizeCloudinaryUrl(data.logoImg, { width: 250 });
+                if (logo) logo.src = optimized;
+                if (favicon) favicon.href = optimized;
+            }
+
+            if (data.heroImg) {
+                const heroSection = document.getElementById('hero-section');
+                if (heroSection) heroSection.style.backgroundImage = `url('${optimizeCloudinaryUrl(data.heroImg, { width: 1400 })}')`;
+            }
+
+            if (data.aboutImg1) {
+                const img = document.getElementById('about-img-1');
+                if (img) img.src = optimizeCloudinaryUrl(data.aboutImg1, { width: 600 });
+            }
+            if (data.aboutImg2) {
+                const img = document.getElementById('about-img-2');
+                if (img) img.src = optimizeCloudinaryUrl(data.aboutImg2, { width: 600 });
+            }
+
+            if (data.info) {
+                const hEl = document.getElementById('info-hours');
+                const pEl = document.getElementById('info-phone');
+                const aEl = document.getElementById('info-address');
+
+                if (hEl) hEl.innerHTML = (data.info.hours || '').replace(/\n/g, '<br>');
+                if (pEl) pEl.textContent = data.info.phone || '';
+                if (aEl) aEl.textContent = data.info.address || '';
+
+                const fhEl = document.getElementById('footer-hours');
+                const fpEl = document.getElementById('footer-phone');
+                const faEl = document.getElementById('footer-address');
+                if (fhEl) fhEl.innerHTML = (data.info.hours || '').replace(/\n/g, '<br>');
+                if (fpEl) fpEl.textContent = (currentLang === 'es' ? 'Teléfono: ' : 'Phone: ') + (data.info.phone || '');
+                if (faEl) faEl.textContent = data.info.address || '';
+            }
+
+            if (data.socials) {
+                const container = document.getElementById('social-icons');
+                if (container) {
+                    container.innerHTML = data.socials.map(s => {
+                        const plat = s.platform === 'twitter' ? 'tiktok' : s.platform;
+                        const icon = SOCIAL_ICONS[plat] || SOCIAL_ICONS.instagram;
+                        return `<a href="${s.url}" target="_blank" rel="noopener noreferrer" class="social-link">${icon}</a>`;
+                    }).join('');
+                }
+            }
+
+            if (data.gallery && Array.isArray(data.gallery)) {
+                const container = document.getElementById('gallery-container');
+                if (container) {
+                    container.innerHTML = data.gallery.map(imgUrl => `
+                        <div class="gallery-card">
+                            <img src="${optimizeCloudinaryUrl(imgUrl, { width: 500, height: 500, crop: 'fill' })}" class="gallery-img" alt="Platillo Mexico Lindo KC #2" loading="lazy" width="300" height="300">
+                            <div class="gallery-overlay">
+                                <span style="color:#fff; font-weight:700; font-family:var(--font-display); font-size:0.9rem;">Mexico Lindo KC #2</span>
+                            </div>
+                        </div>
+                    `).join('');
+                }
+            }
+
+            if (data.paragraphs && data.paragraphs.about) {
+                const p1 = document.getElementById('about-p1');
+                if (p1) p1.textContent = data.paragraphs.about;
+            }
+        }
+
+        // Automatic Copyright Year Script for Menutech Range (2015 - Current System Year)
+        document.addEventListener('DOMContentLoaded', () => {
+            const currentYear = new Date().getFullYear();
+            const copyrightEl = document.getElementById('copyright-year');
+            if (copyrightEl) {
+                copyrightEl.textContent = currentYear;
+            }
+
+            if (window.MENU_TECH_STATE) {
+                updateUI(window.MENU_TECH_STATE);
+            }
+
+            const esBtn = document.getElementById('lang-es');
+            const enBtn = document.getElementById('lang-en');
+            if (esBtn) esBtn.addEventListener('click', () => applyLanguage('es'));
+            if (enBtn) enBtn.addEventListener('click', () => applyLanguage('en'));
+
+            // Mobile Nav Toggle
+            const toggler = document.getElementById('navbar-toggler');
+            const navMenu = document.getElementById('nav-menu');
+            if (toggler && navMenu) {
+                toggler.addEventListener('click', () => {
+                    navMenu.classList.toggle('active');
+                });
+            }
+        });
+
+        window.addEventListener('message', (event) => {
+            if (event.data && event.data.type === 'UPDATE_CONTENT') {
+                updateUI(event.data.data);
+            }
+        });
+    </script>
+</body>
+</html>
